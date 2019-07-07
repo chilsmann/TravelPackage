@@ -1,0 +1,114 @@
+   ----jGRASP exec: java Tester
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    1
+    Which flight would you like to change? Enter ORIGIN: DEN
+    Which flight would you like to change? Enter DESTINATION: LAX
+    What do you want to be the new price? Enter PRICE(int): 4534
+    Changed price to 4534
+    Changed price to 4534
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    2
+    please enter an ORIGIN:
+    DEN
+    Please enter a DESTINATION: 
+    LAX
+    Seat Available!
+    Flight Origin: DEN, Destination: LAX, Year: 2011, Month: 10, Day: 8 Flight ID: AA1. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled. 
+    Seat Available!
+    Flight Origin: DEN, Destination: LAX, Year: 2011, Month: 10, Day: 8 Flight ID: AA1. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled. 
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    3
+    Which flight would you like to change? Enter ORIGIN: NYC
+    Which flight would you like to change? Enter DESTINATION: SEA
+    What do you want to be the new price? Enter PRICE(int): 666
+    Changed price to 666
+    Changed price to 666
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    4
+    Please enter an airline: 
+    AMER
+    Please enter a flight code: 
+    AA1
+    Please enter seat row (int): 
+    1
+    Please enter a seat colum(letter): 
+    A
+    What seat class would you like? F = first, B = busniess and E = economy: 
+    F
+    You have booked your seat!
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    5
+    Which flight would you like to change? Enter ORIGIN: DEN
+    Which flight would you like to change? Enter DESTINATION: LAX
+    Window or Aisle seat? W/A: 
+    W
+    This option is still under development.
+    This option is still under development.
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    6
+    Airport: DEN 
+    Airport: NYC 
+    Airport: SEA 
+    Airport: LAX 
+    Airline: AMER and these Flights: Flight Origin: DEN, Destination: LAX, Year: 2011, Month: 10, Day: 8 Flight ID: AA1. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled. Flight Origin: LAX, Destination: DEN, Year: 2011, Month: 8, Day: 9 Flight ID: 11,. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Seat: 4A is not filled.  Seat: 4B is not filled.  Seat: 4C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled. 
+    Airline: UNTD and these Flights: Flight Origin: NYC, Destination: SEA, Year: 2011, Month: 11, Day: 8 Flight ID: U21. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Seat: 4A is not filled.  Seat: 4B is not filled.  Seat: 4C is not filled.  Seat: 5A is not filled.  Seat: 5B is not filled.  Seat: 5C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled. Flight Origin: SEA, Destination: DEN, Year: 2011, Month: 8, Day: 9 Flight ID: 011. Flight Section: economy has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled.  Seat: 2A is not filled.  Seat: 2B is not filled.  Seat: 2C is not filled.  Seat: 3A is not filled.  Seat: 3B is not filled.  Seat: 3C is not filled.  Seat: 4A is not filled.  Seat: 4B is not filled.  Seat: 4C is not filled.  Flight Section: first has these seats taken and available:  Seat: 0A is not filled.  Seat: 0B is not filled.  Seat: 0C is not filled.  Seat: 1A is not filled.  Seat: 1B is not filled.  Seat: 1C is not filled. 
+    Would you like to see the menu again? y/n: 
+    y
+    1.) Change a price associated with seats
+    2.) Find avaible seats associated with a flight 
+    3.) Change the seat class price for an origin and destination for a given flight 
+    4.) Book a seat on a specific flight 
+    5.) Book a seat on a flight given only a seeting preference 
+    6.) Display deatails 
+    7.) Store information about the airport in a specified file 
+    7
+    Would you like to see the menu again? y/n: 
+    n
+    
+     ----jGRASP: operation complete.
